@@ -1,30 +1,12 @@
 {
-  "token": "ODUzMTUxMTkxMDAxMzMzNzgx.YMRM9g.BNUnWITTsfL5iLxXurE-F9fko68",
-  "prefix": "Ds/",
-  "guildID": "838571606498082836",
-  "clientID": "853151191001333781",
-  "clientSecret": "EDWQTLvry3H8w6FPoVfqmY1wgNEXJoJT",
-  "callbackURL": "https://discordspacelistga.glitch.me/callback",
-  "secret": "",
-  "rethink": {
-    "host": "https://glitch.me/",
-    "port": 28015,
-    "db": ""
-   },
-  "useragent": "AFUCKINGBOTLIST",
-  "channels": {
-    "weblog": " WEB LOG CHANNEL GOES HERE",
-    "verification_log": "VERIFICATION LOG GOES HERE"
-  },
-  "roles": {
-    "staff": " STAFF ROLE ID",
-    "admins": " ADMIN ROLE ID ",
-    "bot": " BOT ROLE ID",
-    "bot_developer": "BOT DEVELOPER ID",
-    "verified_developer": " VERIFIED DEVELOPER ID",
-    "verified_bot": " VERIFIED BOT ID"
-  },
-  "emojis": {
-    "verified": " VERIFIED EMOJI ID WITHOUT THE <>"
-  }
+  "token": "",
+  "prefix" : "+",
+  "owner" : ["","",""],
+  "clientid" : "",
+  "clientsecret" : "",
+  "clientcallback" : "",
+  "mongoURL" : "",
+  "serverID": "",
+  "footer": "GLOBAL FOOTER",
+  "tags": ["Moderation", "Fun", "Music","Economy","Guard","NSFW","Anime","Invite","Minecraft","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"]
 }

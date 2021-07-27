@@ -1,36 +1,43 @@
-# Discord Bot List (old project)
+# Website-botlist
 
-### Development!
+> Change Log
+> Some errors fixed.
 
-To enable the development environment where the project will be accessible through http://localhost, please execute this following command.
+> Premium system removed.
 
-```shell
-yarn devstart
-```
+> Admin Panel modified..
 
-### Testing
+> Bots, Bot info command added.
 
-To enable the testing environment where the project will be accessible through http://localhost, please execute this following command.
+> A special url system has been added for certified bots.
 
-```shell
-yarn testing
-```
+> The "latest bots" section has been added to the Homepage.
 
-### Production!
+> The code search channel was removed.
 
-To enable the production environment where the project will be accessible through http://localhost, please execute this following command.
+> Bot autorole has been added.
 
-```shell
-yarn start
-```
+> Code request removed.
 
-### Information
+> The number of active users in the site has been added to the footer.
 
-[Access the project's license here.](/LICENSE)
+> Once the certificate is issued, automatic role assignment has been added.
 
-[Access the project's README here.](/README.md)
+> Elements that slow down the site have been removed.
 
-### NOTE: 
-All code that is in this repository is the property of Mr. Jacob Tyrrell under local copyright laws. 
+> # Developers
+> 👤 -Daddy.exe#3971
 
-People are allowed to use the code for this, but must be credited to me.
+# Setup
+
+Fill in the json files, link the required information and now it's ready.
+
+# Extra Terms of use
+
+- You have the permission to shoot and share videos, but you have to mention us, our server, in the video.
+- You have the permission to share in writing, but you have to mention us, our server, in the article.
+- - You are permitted to use and must include us in Footer(www/parts/foot.ejs) accordingly. If you don't do this and we discover you, I would like to say that this is not a good choice for you.
+- You can't speak in a "we did it" way.
+- You cannot sell it.
+
+# Support Server [Click Here](https://discord.gg/gn24nq4RGp)
