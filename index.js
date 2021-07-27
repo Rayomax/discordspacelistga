@@ -14,15 +14,15 @@ client.profile = profile
 
 client.settings = {
   "prefix": "Ds/", //prefix
-  "oauthSecret": "MaLALI3aUxGwaYAvCBWrcMTETnyYyvIZ", // bot secreti
+  "oauthSecret": "pDDzm1I3k3obu_vK9uvnuIDjTgczC4ld", // bot secreti
 	"callbackURL": "https://discordspacelistga.glitch.me//callback", // change the urls of my site with "/ callback"!
 	"kayıt": "853151191001333781", // approved, rejected, you have applied, you will write the ID of the channel where the recordings will go
   "color": "RANDOM" // get the color of the embeds from here, something like that
 };
 
-client.authorities = ["484010160981934100", "600743415948509216", "343793233815535626", "422456282948042753", "349936436373618689"]// ids of all authorities gelece array // ids of all authorities gelcek array
-client.web_officials = ["484010160981934100", "600743415948509216", "343793233815535626", "422456282948042753","349936436373618689"]// ids of web officials future array
-client.server_authorities = ["484010160981934100", "600743415948509216", "343793233815535626", "422456282948042753","349936436373618689"]// ids of server authorities future array
+client.authorities = ["812771700910325861", "852720882659885087"]// ids of all authorities gelece array // ids of all authorities gelcek array
+client.web_officials = ["812771700910325861","852720882659885087"]// ids of web officials future array
+client.server_authorities = ["852720882659885087","812771700910325861"]// ids of server authorities future array
 
 //["id", "id2"]
 
