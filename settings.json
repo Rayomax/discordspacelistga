@@ -1,13 +1,13 @@
 {
-  "token": " APPLICATION TOKEN",
-  "prefix": "%",
-  "guildID": "SERVER GUILD ID GOES HERE",
-  "clientID": "x",
-  "clientSecret": "x",
-  "callbackURL": "CALL BACK LINK GOES HERE",
+  "token": "ODUzMTUxMTkxMDAxMzMzNzgx.YMRM9g.BNUnWITTsfL5iLxXurE-F9fko68",
+  "prefix": "Ds/",
+  "guildID": "838571606498082836",
+  "clientID": "853151191001333781",
+  "clientSecret": "EDWQTLvry3H8w6FPoVfqmY1wgNEXJoJT",
+  "callbackURL": "https://discordspacelistga.glitch.me/callback",
   "secret": "",
   "rethink": {
-    "host": "127.0.0.1",
+    "host": "glitch.me",
     "port": 28015,
     "db": " database "
    },
