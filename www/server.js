@@ -51,7 +51,7 @@ const url = require("url");
     }));
 
     app.set('views', path.join(__dirname, '/views'));
-    const templateDir = path.resolve(`${process.cwd()}${path.sep}src/views`);
+    const templateDir = path.resolve(`${process.cwd()}${path.sep}www/views`);
     app.use("/css", express.static(path.resolve(`${templateDir}${path.sep}assets/css`)));
     app.use("/js", express.static(path.resolve(`${templateDir}${path.sep}assets/js`)));
     app.use("/img", express.static(path.resolve(`${templateDir}${path.sep}assets/img`)));
@@ -214,7 +214,7 @@ const url = require("url");
     console.log(" ")
     console.log('\x1b[36m%s\x1b[0m', "[vcodes.xyz]: Botlist system routers loading...");
     sleep(500);
-    app.use("/", require('./routers/botlist/addbot.js'))
+    app.use("/", require('./v/botlist/addbot.js'))
     app.use("/", require('./routers/botlist/mini.js'))
     app.use("/", require('./routers/botlist/vote.js'))
     app.use("/", require('./routers/botlist/bot/view.js'))
@@ -226,16 +226,16 @@ const url = require("url");
     console.log(" ")
     console.log('\x1b[36m%s\x1b[0m', "[vcodes.xyz]: Serverlist system routers loading...");
     sleep(500);
-    app.use("/servers", require('./routers/servers/index.js'))
-    app.use("/server", require('./routers/servers/add.js'))
-    app.use("/servers", require('./routers/servers/tags.js'))
-    app.use("/servers", require('./routers/servers/search.js'))
-    app.use("/servers", require('./routers/servers/tag.js'))
-    app.use("/server", require('./routers/servers/server/view.js'))
-    app.use("/server", require('./routers/servers/server/edit.js'))
-    app.use("/server", require('./routers/servers/server/join.js'))
-    app.use("/server", require('./routers/servers/server/analytics.js'))
-    app.use("/server", require('./routers/servers/server/delete.js'))
+    app.use("/servers", require('./views/servers/index.js'))
+    app.use("/server", require('./views/servers/add.js'))
+    app.use("/servers", require('./views/servers/tags.js'))
+    app.use("/servers", require('./views/servers/search.js'))
+    app.use("/servers", require('./views/servers/tag.js'))
+    app.use("/server", require('./views/servers/server/view.js'))
+    app.use("/server", require('./views/servers/server/edit.js'))
+    app.use("/server", require('./views/servers/server/join.js'))
+    app.use("/server", require('./views/servers/server/analytics.js'))
+    app.use("/server", require('./views/servers/server/delete.js'))
 
     /* Admin Panel */
     app.use(async (req, res, next) => {
