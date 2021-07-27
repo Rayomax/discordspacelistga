@@ -68,17 +68,17 @@
                         <a class="nav-link dropdown-toggle has-text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <img width="32" class="profile-image" style="border-radius: 50%" src="https://cdn.discordapp.com/avatars/<%=user.id%>/<%=user.avatar%>" translate="no"> <%= user.username %>
                         </a>
-                        <div title="OP" class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                          <a title="OP" class="dropdown-item" href="/user/<%=user.id%>"><i class="fad fa-user"></i>&nbsp;Profile</a>
-                          <a title="OP" class="dropdown-item" href="/certification"><i class="fad fa-badge-check"></i>&nbsp;Certification</a>
-                          <a title="OP" class="dropdown-item" href="/addbot"><i class="fad fa-paper-plane"></i>&nbsp;Submit Bot</a>
-                          <a translate="no" title="OP" class="dropdown-item" href="/uptime/links"><i class="fad fa-sync-alt"></i>&nbsp;Uptime Links</a>
+                        <div title="DiscordSpace" class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+                          <a title="DiscordSpace" class="dropdown-item" href="/user/<%=user.id%>"><i class="fad fa-user"></i>&nbsp;Profile</a>
+                          <a title="DiscordSpace" class="dropdown-item" href="/certification"><i class="fad fa-badge-check"></i>&nbsp;Certification</a>
+                          <a title="DiscordSpace" class="dropdown-item" href="/addbot"><i class="fad fa-paper-plane"></i>&nbsp;Submit Bot</a>
+                          <a translate="no" title="DiscordSpace" class="dropdown-item" href="/uptime/links"><i class="fad fa-sync-alt"></i>&nbsp;Uptime Links</a>
                           <div class="dropdown-divider"></div>
-                          <a title="OP" class="dropdown-item" href="/logout"><i class="fad fa-sign-out"></i>&nbsp;Logout</a>
+                          <a title="DiscordSpace" class="dropdown-item" href="/logout"><i class="fad fa-sign-out"></i>&nbsp;Logout</a>
                         </div>
                       </li>
                 <% } else {%>
-                    <li class="nav-item active"><a class="nav-link" title="OP" href="/login"><i class="fad fa-sign-in"></i>&nbsp;Login</a></li>
+                    <li class="nav-item active"><a class="nav-link" title="DiscordSpace" href="/login"><i class="fad fa-sign-in"></i>&nbsp;Login</a></li>
                 <% } %>           
             </ul>
         </div>
