@@ -2,16 +2,16 @@ module.exports = {
   config: {
    
     bot: {
-        token: "ODQ5NjE3MjgwMjQ1NDMyMzQw.YLdxwA.mdy9ba-2URUcQDGAAXhMpOG647U",
-        prefix: ".",
-        owners: ["711769701541347381","720632216236851260"],
-        mongourl: "F YOU"
+        token: "ODQ1OTA4OTI2OTMwNzQ3NDQy.YKn0FA.2kl_kWrIqPy8VwCjHIsHQ7z_G3M", // Bot List Bot Token
+                prefix: "D/",
+                owners: ["812771700910325861","852720882659885087"],
+        mongourl: "mongodb+srv://TestList:awadeowo@cluster0.vojcl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     },
 
     website: {
-        callback: "https://dumbbotlist.tk/callback",
-        secret: "r1mXCFp08HBklNorIhHFOS_wJoC8d-zS",
-        clientID: "849617280245432340",
+        callback: "https://discordspacelistga.glitch.me/callback",
+        secret: "q2f1iRBp7jriHqAyR5B9ChtWVKpvgRIi",
+        clientID: "868670421497696286",
         tags: [ "Moderation", "Fun", "Minecraft","Economy","Guard","NSFW","Anime","Invite","Music","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility"]    
     },
  roles: {
@@ -115,16 +115,15 @@ module.exports = {
             }
         },
     bot: {
-        token: "ODQ5NjE3MjgwMjQ1NDMyMzQw.YLdxwA.mdy9ba-2URUcQDGAAXhMpOG647U",
-        prefix: ".",
-        owners: ["711769701541347381","720632216236851260"],
-        mongourl: ""
+         token: "ODQ1OTA4OTI2OTMwNzQ3NDQy.YKn0FA.2kl_kWrIqPy8VwCjHIsHQ7z_G3M", // Bot List Bot Token
+                prefix: "D/",
+                owners: ["812771700910325861","852720882659885087"],
+        mongourl: "mongodb+srv://TestList:awadeowo@cluster0.vojcl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     },
 
     website: {
-        callback: "https://dumbbotlist.tk/callback",
-        secret: "r1mXCFp08HBklNorIhHFOS_wJoC8d-zS",
-        clientID: "849617280245432340",
+        callback: "https://discordspacelistga.glitch.me/callback",
+        clientID: "868670421497696286",
         tags: [ "Moderation", "Fun", "Minecraft","Economy","Guard","NSFW","Anime","Invite","Music","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility"],
         servers: {
           tags: ["Fun", "NSFW", "Music", "Clan", "Youtube", "Officials", "Gaming", "Twitch", "Reddit", "Anime", "Community", "Minecraft", "Among Us", "BGMI", "PUBG", "Free Fire", "Apex Legends", "Valorant", "Support", "FanClub"]
@@ -132,7 +131,7 @@ module.exports = {
     },
 
     server: {
-        id: "849623732871757854",
+        id: "838571606498082836",
         roles: {
             yonetici: "856762501887033374",
             moderator: "849623732925366284",
