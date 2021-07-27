@@ -7,9 +7,9 @@
   "callbackURL": "https://discordspacelistga.glitch.me/callback",
   "secret": "",
   "rethink": {
-    "host": "glitch.me",
+    "host": "https://glitch.me/",
     "port": 28015,
-    "db": " database "
+    "db": ""
    },
   "useragent": "AFUCKINGBOTLIST",
   "channels": {
