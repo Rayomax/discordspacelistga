@@ -26,7 +26,7 @@
 > Elements that slow down the site have been removed.
 
 > # Developers
-> 👤 -Daddy.exe#3971
+> Rayomax777#0826 - Antony📌#0001
 
 # Setup
 
