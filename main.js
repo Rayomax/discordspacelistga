@@ -4,7 +4,7 @@ const settings = require("./settings.json");
 const { Client, Collection } = require("discord.js");
 const client = (global.Client = new Client())
 const canvacord = require('canvacord')
-const config = require("./settings.json")
+const config = require("./settings.json");
 const { connect } = require("mongoose")
 const fs = require("fs");
 const bansite = require("./models/site-ban.js");
@@ -128,6 +128,7 @@ client.channels.cache.get(channels.votes).send("All votes for this month have be
 resetStats.start();
 })
 //-------------Vote---------------\\
+
 
 //----------- BOT LIST JOIN & LEAVE SYSTEMS  ---------------\\
 client.on('guildMemberRemove', async member => {

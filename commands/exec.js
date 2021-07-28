@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const { exec } = require('child_process');
 const hastebin = require("hastebin-gen");
-const c = require("../settings.json");
+const c= require("../settings.json");
 exports.run = async(client, message, args) => {
 if(!c.owner.includes(message.author.id)) return  message.reply('could not be granted access permission.')
 const msg = message;

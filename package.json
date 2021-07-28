@@ -41,9 +41,11 @@
     "void.nsfw": "^1.0.8-beta",
     "cookie-parser": "^1.4.5",
     "referrer-policy": "^1.2.0",
-    "vcodes.js": "^0.0.1-beta",
+    "vcodes.js": "^1.0.5",
     "socket.io": "^4.0.1",
-    "alexa-rank-nodejs": "^1.0.4"
+    "alexa-rank-nodejs": "^1.0.4",
+    "void.db": "^2.0.4",
+    "quick.db": "^7.1.3"
   },
   "engines": {
     "node": "12.x"

@@ -18,7 +18,8 @@ support: String,
 privateURL: String,
 Date: {type: Date, default: null},
 certificate: String,
-votes: {type: Number, default: 0}
+votes: {type: Number, default: 0}, 
+backURL: String
 });
 
 module.exports = mongoose.model("bots", hm);
