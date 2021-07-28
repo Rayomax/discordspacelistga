@@ -24,7 +24,7 @@ if (Embed.description.length >= 2048)
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: [],
+  aliases: ["e"],
   permLevel: 0
 };
  

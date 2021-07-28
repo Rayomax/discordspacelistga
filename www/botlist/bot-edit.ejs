@@ -65,16 +65,32 @@
                     <input type="text" name="github" id="github" value="<%= botdata.github %>" class="form-control" placeholder=""/>
                   <% } %>
               </div>
+            <div class="form-group">
+
+                <label><i class="fad fa-image"></i> Background Image</label>
+
+                <% if(!botdata.backURL) { %>
+
+                  <input type="text" name="background" id="background" class="form-control" placeholder=""/>
+
+                <% } else { %>
+
+                  <input type="text" name="background" id="background" value="<%= botdata.backURL %>" class="form-control" />
+
+                <% } %>
+
+              </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
               <label><i class="fad fa-text"></i> Short Description<span style="color: rgb(175, 22, 22)">*</span></label>
-              <input name="shortDesc" id="shortDesc" class="form-control" placeholder="Kısa Açıklama" value="<%= botdata.shortDesc %>" maxlength="300" required="required">
+              <input name="shortDesc" id="shortDesc" class="form-control" placeholder="short desc" value="<%= botdata.shortDesc %>" maxlength="300" required="required">
           </div>
               <div class="form-group">
                 <label><i class="fad fa-texts"></i> Long Description<span style="color: rgb(175, 22, 22)">*</span></label>
-                  <textarea name="longDesc" id="longDesc" class="form-control" placeholder="Uzun Açıklama" value="<%= botdata.longDesc %>" minlength="300" required="required" style="width: 100%; height: 300px;"><%= botdata.longDesc %></textarea>
+                  <textarea name="longDesc" id="longDesc" class="form-control" placeholder="long desc, support html" value="<%= botdata.longDesc %>" minlength="300" required="required" style="width: 100%; height: 300px;"><%= botdata.longDesc %></textarea>
               </div>
+            
               <div class="form-group">
                 <label><i class="fad fa-tags"></i> Tags<span style="color: rgb(175, 22, 22)">*</span></label>
                 <select name="tags" id="tags" multiple required>
@@ -103,7 +119,7 @@
      title: 'Successful...',
      closeOnConfirm: false,
      text: urlParams.get('message'),
-     footer: 'Copyright 2021 &copy op.xyz - All right reserved.'
+     footer: 'Copyright 2021 &copy DiscordSpace - All right reserved.'
     }).then((result) => {
   if (result.isConfirmed) {
     window.location.href = `/bot/${urlParams.get('botID')}`;
@@ -115,7 +131,7 @@
      icon: 'error',
      title: 'Oops...',
      text: urlParams.get('message'),
-     footer: 'Copyright 2021 &copy op.xyz - All right reserved.'
+     footer: 'Copyright 2021 &copy DiscordSpace - All right reserved.'
     }).then((result) => {
   if (result.isConfirmed) {
     window.location.href = '/addbot';

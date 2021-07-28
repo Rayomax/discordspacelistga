@@ -637,7 +637,7 @@ module.exports = async client => {
     client.users.fetch(rBody["botID"]).then(a => {
       client.channels.cache
         .get(channels.botlog)
-        .send(`<@${req.user.id}> added **${a.tag}**`);
+        .send(`<@${req.user.id}> added **${a.tag}** <@&845373717487943700>`);
       res.redirect(
         `?success=true&message=Your bot has been successfully added to the system.&botID=${
           rBody["botID"]
